@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TheMMM WEB</title>
+    <style>
+        body {
+            background: #0d0f12;
+            color: #eee;
+            font-family: system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 2rem 2rem 2rem;
+        }
+        h1 { color: #a200ff; margin: 0; }
+        .highlight { background: #1e1e1e; padding: 1rem; border-radius: 16px; }
+        a { color: #00a2ff; text-decoration: none; }
+        .projects {
+            margin-top: 2rem;
+        }
+        li {
+            margin-bottom: 2rem;
+        }
+        div.ramka {
+            background: #1e1e1e;
+            border: 2px solid #1e1e1e;
+            border-radius: 16px;
+            padding: 1rem;
+        }
+        .header-wrapper {
+            position: sticky;
+            top: 0;
+            background-color: #1e1e1e;
+            z-index: 100;
+        }
+        .footer-wrapper {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer{
+            color: #aaa;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            border-bottom: #2e2e2e 2px solid;
+        }
+        iframe {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 0 1rem 1rem 1rem;
+            }
+            header {
+                padding: 0.75rem 1rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            .header-wrapper div {
+                display: flex;
+                gap: 0.75rem;
+            }
+            li p {
+                font-size: 0.9rem;
+            }
+            iframe {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-wrapper">
+        <header>
+            <h1>TheMMM WEB</h1>
+            <div>
+                <a href="#projects">Проекты</a>
+                <a href="#about">О себе</a>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <p>Привет. Это мой личный уголок в интернете.</p>
+        <div class="projects" id="projects">
+            <h2>Проекты</h2>
+            <ul>
+                <li><strong><a href="https://themmmchk.itch.io/the-last-candle" target="_blank" rel="noopener">The Last Candle</a></strong><br>
+                <p>Когда тьма поглощает всё, остаётся лишь свет свечи.<br><br>
+
+                Ты — призрак, затерявшийся в стенах древнего замка.<br>
+                У тебя осталась только одна свеча — твой единственный путь к свободе.<br>
+                Но свет тает с каждой секундой...<br><br>
+
+                The Last Candle — короткая атмосферная инди-игра, созданная за 7 дней для EasyJam.<br><br>
+
+                Здесь время — это свет. Каждый миг, каждое движение, каждое столкновение с тенью уносит часть свечи.<br><br>
+
+                🔦 Исследуй старый замок.<br>
+                ⚙️ Решай простые загадки.<br>
+                👁️ Избегай теней, что тянутся к твоему свету.<br>
+                🚪 Найди выход — или останься навечно во тьме.<br>
+                🕯️ Последняя свеча горит. Что ты выберешь: страх или надежду?</p>
+                <iframe frameborder="0" src="https://itch.io/embed/3997003?linkback=true&border_width=5px&dark=true" width="560" height="175"><a href="https://themmmchk.itch.io/the-last-candle">The Last Candle by TheMMMchk</a></iframe>
+            </li>
+            </ul>
+            <div class="ramka" id="about">
+                <h2>О себе</h2>
+                <p>Я Матвей. Юный разработчик</p>
+                <p>Победил в двух джемах. Осенний 2025 и весенний 2026 EasyJam'ы</p>
+                <p>Также я и тестировщик и модератор в easycode-lab</p>
+                <p>Более 60 багов я нашёл. (Не все в таблице)</p>
+                <a href="https://docs.google.com/spreadsheets/d/1jtBwrKDt9tKBVeAywMXB5rMFqZkxKbpOrHDA5bCSL0g/edit?usp=sharing" target="_blank" rel="noopener">Таблица с багами</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrapper">
+        <footer>
+            <p>2026 Matvey. MIT License</p>
+        </footer>
+    </div>
+</body>
+</html>
