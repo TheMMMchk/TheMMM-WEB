@@ -1,0 +1,111 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #292929;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem 2rem;
+    flex: 1;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-bottom: #2e2e2e 2px solid;
+    position: sticky;
+    top: 0;
+    background-color: #1e1e1e;
+    z-index: 100;
+    text-align: center;
+}
+footer {
+    color: #aaa;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 1rem 0;
+}
+h1 {
+    color: #ffffff;
+    margin: 0;
+}
+nav {
+    margin-left: 1.5rem;
+}
+nav a {
+    color: #0099ff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.2s;
+}
+nav a:hover {
+    color: #00ccff;
+}
+a {
+    color: #0099ff;
+    text-decoration: none;
+    border: 1px;
+}
+.btn {
+    display: inline-block;
+    background-color: #a200ff;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s;
+}
+section {
+    background-color: #1e1e1e;
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    transition: transform 0.2s, border-color 0.2s;
+}
+section:hover {
+    transform: translateY(-4px);
+    border-color: #a200ff;
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.5rem;
+}
+h3 {
+    color: #a200ff;
+}
+div.hero {
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+    border-bottom: 2px solid #2e2e2e;
+    margin-bottom: 2rem;
+}
+.hero h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+}
+
+img {
+    border-radius: 16px;
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    padding: 1rem 0;
+}
